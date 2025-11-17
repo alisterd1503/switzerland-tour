@@ -719,7 +719,7 @@ a.text-hover:focus:after {
 /* - Intro
 ------------------------------------------------------------- */
 #intro .banner-content {
-  top: 30%;
+  top: 25%;
   left: 300px;
   z-index: 3;
   width: 54%;
@@ -765,13 +765,6 @@ a.text-hover:focus:after {
 
   #intro h1.banner-title {
     font-size: 3em;
-  }
-
-  #intro .social-links {
-    top: 850px;
-    right: 0;
-    bottom: 0;
-    left: 0;
   }
 
 }
