@@ -877,12 +877,13 @@ a.text-hover:focus:after {
 }
 
 #destinations .swiper-arrow svg {
-  top: 30%;
-  padding: 18px;
-  width: 60px;
-  height: 60px;
+  top: 35%;
+  width: 40px;
+  height: 40px;
+  padding: 0;
   z-index: 3;
-  background-color: var(--gray-color-100);
+  background-color: transparent;
+  color: black;
 }
 
 .image-holder {
@@ -899,15 +900,16 @@ a.text-hover:focus:after {
 }
 
 #destinations svg.icon-arrow-left {
-  left: 60px;
+  left: 10px;
 }
 
 #destinations svg.icon-arrow-right {
-  right: 60px;
+  right: 10px;
 }
 
 #destinations .swiper-arrow svg:hover {
-  background-color: var(--gray-color-100);
+  background-color: transparent;
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 901px) {
