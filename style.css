@@ -622,6 +622,10 @@ a.text-hover:focus:after {
   z-index: 10;
 }
 
+.navbar.fixed-top {
+  transition: background-color 0.5s ease;
+}
+
 #navbar a.nav-link:hover,
 #navbar a.nav-link:focus {
   color: var(--light-color);
